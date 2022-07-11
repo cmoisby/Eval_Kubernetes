@@ -24,7 +24,7 @@ spec:
       - name: my-api
         image: my_api:latest
         env:
-          - name: MYSQL_ROOT_PASSWORD
+          - name: MYSQL_PASSWORD
             valueFrom:
               secretKeyRef:
                 name: my-secret
