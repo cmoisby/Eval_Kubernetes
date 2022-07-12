@@ -28,8 +28,7 @@ spec:
             valueFrom:
               secretKeyRef:
                 name: my-secret
-                key: my-key
-        imagePullPolicy: Never
+                key: my-key 
         ports:
         - name: port80
           containerPort: 8000
